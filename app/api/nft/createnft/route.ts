@@ -5,7 +5,6 @@ import { airdropIfRequired, getExplorerLink, getKeypairFromFile } from "@solana-
 import { clusterApiUrl, Connection, Keypair, LAMPORTS_PER_SOL } from "@solana/web3.js";
 
 
-
 const connection = new Connection(clusterApiUrl("devnet"))
 
 export async function GET(request: Request){
